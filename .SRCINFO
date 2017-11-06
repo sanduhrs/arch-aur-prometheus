@@ -1,6 +1,6 @@
 pkgbase = prometheus
 	pkgdesc = An open-source service monitoring system and time series database.
-	pkgver = 1.8.0
+	pkgver = 1.8.1
 	pkgrel = 1
 	url = http://prometheus.io
 	install = prometheus.install
@@ -11,9 +11,9 @@ pkgbase = prometheus
 	makedepends = git
 	depends = glibc
 	backup = etc/prometheus/prometheus.yml
-	source = https://github.com/prometheus/prometheus/archive/v1.8.0.tar.gz
+	source = https://github.com/prometheus/prometheus/archive/v1.8.1.tar.gz
 	source = prometheus.service
-	sha256sums = 556247d750b3618b74ccf59669f74a8c0c39e72cdf51cbcc0c0bcc392de195df
+	sha256sums = dc2b7bb5b5f1273c131921d3e306fd198f2a5547abc58dcf511b700c62963595
 	sha256sums = 2d689efe588302346b7065fef1b05be812e4a91df1a8d8845830c0b2397b2ac3
 
 pkgname = prometheus
